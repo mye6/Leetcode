@@ -57,7 +57,7 @@
 * [Count Good Meals (Medium)](https://leetcode.com/problems/count-good-meals/)
 
 
-## Solution 1.
+## Solution 1 (CPP).
 Use a hash map to track the mapping from number to index.
 ```cpp
 // OJ: https://leetcode.com/problems/two-sum/
@@ -83,6 +83,29 @@ public:
     
 };
 ```
+
+## Solution 1 (Python).
+Use a hash map to track the mapping from number to index.
+```python
+// OJ: https://leetcode.com/problems/two-sum/
+// Author: github.com/mye6
+// Time: O(N)
+// Space: O(N)
+
+class Solution:    
+    
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        d={}
+        
+        for i, n in enumerate(nums):
+            if n in d:
+                return (d[n], i)
+            else:
+                d[target-n]=i
+        
+        return (0,0)
+```
+
 
 ## Solution 2.
 Sort and then use two pointers.
