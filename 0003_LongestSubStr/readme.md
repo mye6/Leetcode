@@ -1,16 +1,11 @@
 
-
 ## Solution 1 (CPP).
 Use a hash map to track the mapping from number to index.
 ```cpp
-// OJ: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-// Author: github.com/mye6
 // Time: O(N)
 // Space: O(C) where C is the range of character set
-
 class Solution {
 public:
-    
     
     int lengthOfLongestSubstring(string s) {
         int n=s.size();
@@ -34,40 +29,17 @@ public:
 ## Solution 1 (PYTHON).
 Use a hash map to track the mapping from number to index.
 ```python
-// OJ: https://leetcode.com/problems/two-sum/
-// Author: github.com/mye6
 // Time: O(N)
-// Space: O(1)
-
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
-class Solution(object):
-    
-    
-    def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
-        dummy=tail=ListNode(0)
-        c=0
-        
-        while l1 or l2 or c:
-            if l1:
-                c+=l1.val
-                l1=l1.next
-            if l2:
-                c+=l2.val
-                l2=l2.next
+// Space: O(N)
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        mp, res, l = {}, 0, 0
+        for i, c in enumerate(s):
+            if c in mp:
+                l = max(l, mp[c]+1)
             
-            tail.next=ListNode(c%10)
-            tail=tail.next
-            c//=10
+            res=max(res,i-l+1)
+            mp[c]=i
             
-        return dummy.next
+        return res
 ```
