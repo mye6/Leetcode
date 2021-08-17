@@ -29,8 +29,8 @@ public:
 ## Solution 1 (PYTHON).
 Use a hash map to track the mapping from number to index.
 ```python
-// Time: O(N)
-// Space: O(N)
+# Time: O(N)
+# Space: O(N)
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         mp, res, l = {}, 0, 0
