@@ -28,8 +28,8 @@ public:
 
 ## Solution 1 (Python).
 ```python
-// Time: O(N)
-// Space: O(1)
+# Time: O(N)
+# Space: O(1)
 class Solution:
     
     def isAlienSorted(self, words: List[str], order: str) -> bool:
