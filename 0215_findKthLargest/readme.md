@@ -20,7 +20,7 @@ public:
 ```
 
 
-## Solution 2 (CPP). DFS
+## Solution 2 (CPP). Quick Select
 ```cpp
 // Time: O(N)~O(N^2)
 // Space: O(1)
