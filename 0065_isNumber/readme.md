@@ -6,34 +6,31 @@
 class Solution {
 public:
     
-    
     bool isNumber(string s) {
         int n=s.size(), i=0, digits=0, dots=0;
         
-        // 1. skip spaces
+        // 1. skip spaces ' '
         while(i<n && s[i]==' ') ++i;
         
         // 2. skip '+'/'-'
         if(s[i]=='+' || s[i]=='-') ++i;
         
-        // 3. digits or dots
-        while(i<n && ( isdigit(s[i]) || s[i]=='.' ) ) {
-            isdigit(s[i]) ? ++digits : ++dots;
+        // 3. count digit or dot
+        while(i<n && (isdigit(s[i]) || s[i]=='.') ) {
+            if(isdigit(s[i])) ++digits;
+            else ++dots;
             ++i;
-        }
+        }        
         if(digits==0 || dots>1) return false;
         
-        // 4. e/E
+        // 4. OPTIONAL: check the chars after e/E
         if(tolower(s[i])=='e') {
-            ++i; // skip it
+            ++i;                            // skip e/E
+            if(s[i]=='+' || s[i]=='-') ++i; // skip +/-
             
-            if(s[i]=='+'||s[i]=='-') ++i;
-            
+            // check digits
             digits=0;
-            while(i<n && isdigit(s[i])) {
-                ++digits;
-                ++i;
-            }
+            for( ; i<n && isdigit(s[i]); ++i) ++digits;            
             if(digits==0) return false;
         }
         
@@ -41,6 +38,7 @@ public:
         while(i<n && s[i]==' ') ++i;
         
         return i==n;
-    }  
+    }    
+    
 };
 ```
