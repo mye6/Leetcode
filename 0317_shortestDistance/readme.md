@@ -1,5 +1,5 @@
 
-## Solution 1 (CPP). Reservoir sampling
+## Solution 1 (CPP).
 ```cpp
 // Time: O(#Building*MN)
 // Space: O(MN)
