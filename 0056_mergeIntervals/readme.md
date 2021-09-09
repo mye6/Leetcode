@@ -1,8 +1,8 @@
 
-## Solution 1 (CPP). Dynamic programming
+## Solution 1 (CPP).
 ```cpp
-// Time: O(N^2)
-// Space: O(N)
+// Time: O(NlogN)
+// Space: O(
 class Solution {
 public:
     
@@ -30,4 +30,5 @@ public:
     }
     
     
-};```
+};
+```
