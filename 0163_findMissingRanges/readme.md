@@ -2,7 +2,7 @@
 ## Solution 1 (CPP).
 ```cpp
 // Time: O(N)
-// Space: O(1)
+// Space: O(1) 
 
 class Solution {
 public:
