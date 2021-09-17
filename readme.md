@@ -3,8 +3,8 @@
 
 #### Hash Table
 [0001. Two Sum (Medium)](https://github.com/mye6/Leetcode/tree/master/0001_TwoSum)
-146. LRU Cache (Medium)
-3	Longest Substring Without Repeating Characters	32.2%	Medium	
+[146. LRU Cache (Medium)]()
+[3. Longest Substring Without Repeating Characters (Medium)]
 560	
 Subarray Sum Equals K	43.7%	Medium	
 380	
