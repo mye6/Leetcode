@@ -1,4 +1,4 @@
-### LeetCode难题代码和算法要点分析
+### LeetCode Solutions and Complexities
 #### 目前分类目录
 
 #### Hash Table
