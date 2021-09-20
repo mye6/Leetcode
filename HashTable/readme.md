@@ -22,7 +22,7 @@
 
 [0017. Letter Combinations of a Phone Number (Medium)](https://github.com/mye6/Leetcode/tree/master/0017_letterCombinations)
 
-[0041. First Missing Positive (Hard)]()
+[0041. First Missing Positive (Hard)](https://github.com/mye6/Leetcode/tree/master/0041_firstMissingPositive)
 
 [0981. Time Based Key-Value Store (Medium)]()
 
