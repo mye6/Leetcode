@@ -18,7 +18,7 @@
 
 [0127. Word Ladder (Hard)](https://github.com/mye6/Leetcode/tree/master/0127_ladderLength)
 
-[0588. Design In-Memory File System (Hard)]()
+[0588. Design In-Memory File System (Hard)](https://github.com/mye6/Leetcode/tree/master/0588_FileSystem)
 
 [0017. Letter Combinations of a Phone Number (Medium)]()
 
