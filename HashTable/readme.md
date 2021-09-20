@@ -26,7 +26,7 @@
 
 [0981. Time Based Key-Value Store (Medium)](https://github.com/mye6/Leetcode/tree/master/0981_TimeMap)
 
-[0953. Verifying an Alien Dictionary (Easy)]()
+[0953. Verifying an Alien Dictionary (Easy)](https://github.com/mye6/Leetcode/tree/master/0953_isAlienSorted)
 
 [0423. Reconstruct Original Digits from English (Medium)]()
 
