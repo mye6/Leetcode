@@ -28,7 +28,7 @@
 
 [0953. Verifying an Alien Dictionary (Easy)](https://github.com/mye6/Leetcode/tree/master/0953_isAlienSorted)
 
-[0423. Reconstruct Original Digits from English (Medium)]()
+[0423. Reconstruct Original Digits from English (Medium)](https://github.com/mye6/Leetcode/tree/master/0423_originalDigits)
 
 [0460. LFU Cache (Hard)]()
 
