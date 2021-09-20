@@ -32,9 +32,9 @@
 
 [0460. LFU Cache (Hard)](https://github.com/mye6/Leetcode/tree/master/0460_LFUCache)
 
-[0013. Roman to Integer (Easy)]()
+[0013. Roman to Integer (Easy)](https://github.com/mye6/Leetcode/tree/master/0013_romanToInt)
 
-[0139. Word Break (Medium)]()
+[0139. Word Break (Medium)](https://github.com/mye6/Leetcode/tree/master/0139_wordBreak)
 
 [1396. Design Underground System (Medium)]()
 
