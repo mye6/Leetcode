@@ -30,7 +30,7 @@
 
 [0423. Reconstruct Original Digits from English (Medium)](https://github.com/mye6/Leetcode/tree/master/0423_originalDigits)
 
-[0460. LFU Cache (Hard)]()
+[0460. LFU Cache (Hard)](https://github.com/mye6/Leetcode/tree/master/0460_LFUCache)
 
 [0013. Roman to Integer (Easy)]()
 
