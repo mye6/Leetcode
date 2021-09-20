@@ -4,11 +4,11 @@
 #### Hash Table
 [0001. Two Sum (Easy)](https://github.com/mye6/Leetcode/tree/master/0001_TwoSum)
 
-[0146. LRU Cache (Medium)]()
+[0146. LRU Cache (Medium)](https://github.com/mye6/Leetcode/tree/master/0146_LRUCache)
 
-[0003. Longest Substring Without Repeating Characters (Medium)]()
+[0003. Longest Substring Without Repeating Characters (Medium)](https://github.com/mye6/Leetcode/tree/master/0003_LongestSubStr)
 
-[0560. Subarray Sum Equals K (Medium)]()
+[0560. Subarray Sum Equals K (Medium)](https://github.com/mye6/Leetcode/tree/master/0560_subarraySum)
 
 [0380. Insert Delete GetRandom O(1) (Medium)]()
 
