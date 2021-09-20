@@ -24,7 +24,7 @@
 
 [0041. First Missing Positive (Hard)](https://github.com/mye6/Leetcode/tree/master/0041_firstMissingPositive)
 
-[0981. Time Based Key-Value Store (Medium)]()
+[0981. Time Based Key-Value Store (Medium)](https://github.com/mye6/Leetcode/tree/master/0981_TimeMap)
 
 [0953. Verifying an Alien Dictionary (Easy)]()
 

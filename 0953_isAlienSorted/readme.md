@@ -1,15 +1,17 @@
 
-## Solution 1 (CPP).
+## Solution 1 (CPP). Hash Table
 ```cpp
-// Time: O(N)
-// Space: O(1)
+// Time: O(NW)
+// Space: O(26)
+
 class Solution {
 public:
+    
+    
     bool isAlienSorted(vector<string>& words, string order) {
         vector<int> ord(26,0);
-        for(int i=0; i<26; ++i) {
+        for(int i=0; i<order.size(); ++i)
             ord[order[i]-'a']=i;
-        }
         
         for(string& w : words) {
             for(char& c : w) {
@@ -22,18 +24,7 @@ public:
         }
         
         return true;
-    }  
+    }
+      
 };
-```
-
-## Solution 1 (Python).
-```python
-# Time: O(N)
-# Space: O(1)
-class Solution:
-    
-    def isAlienSorted(self, words: List[str], order: str) -> bool:
-        mp = {c : i for i, c in enumerate(order)}
-        words = [[mp[c] for c in w] for w in words]
-        return all( w1<=w2 for w1, w2 in zip(words, words[1:]) )
 ```
