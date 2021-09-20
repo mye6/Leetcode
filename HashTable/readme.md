@@ -10,7 +10,7 @@
 
 [0560. Subarray Sum Equals K (Medium)](https://github.com/mye6/Leetcode/tree/master/0560_subarraySum)
 
-[0380. Insert Delete GetRandom O(1) (Medium)]()
+[0380. Insert Delete GetRandom O(1) (Medium)](https://github.com/mye6/Leetcode/tree/master/0380_RandomizedSet)
 
 [0811. Subdomain Visit Count (Medium)](https://github.com/mye6/Leetcode/tree/master/0811_subdomainVisits)
 
