@@ -20,7 +20,7 @@
 
 [0588. Design In-Memory File System (Hard)](https://github.com/mye6/Leetcode/tree/master/0588_FileSystem)
 
-[0017. Letter Combinations of a Phone Number (Medium)]()
+[0017. Letter Combinations of a Phone Number (Medium)](https://github.com/mye6/Leetcode/tree/master/0017_letterCombinations)
 
 [0041. First Missing Positive (Hard)]()
 
