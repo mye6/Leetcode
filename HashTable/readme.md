@@ -38,7 +38,7 @@
 
 [1396. Design Underground System (Medium)](https://github.com/mye6/Leetcode/tree/master/1396_UndergroundSystem)
 
-[0244. Shortest Word Distance II (Medium)]()
+[0244. Shortest Word Distance II (Medium)](https://github.com/mye6/Leetcode/tree/master/0244_WordDistance)
 
 [0740. Delete and Earn (Medium)]()
 
