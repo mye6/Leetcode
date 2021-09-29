@@ -36,7 +36,7 @@
 
 [0139. Word Break (Medium)](https://github.com/mye6/Leetcode/tree/master/0139_wordBreak)
 
-[1396. Design Underground System (Medium)]()
+[1396. Design Underground System (Medium)](https://github.com/mye6/Leetcode/tree/master/1396_UndergroundSystem)
 
 [0244. Shortest Word Distance II (Medium)]()
 
